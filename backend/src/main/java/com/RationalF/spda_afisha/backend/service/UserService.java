@@ -1,6 +1,6 @@
-package com.vladdan16.spda_afisha.backend.service;
+package com.RationalF.spda_afisha.backend.service;
 
-import com.vladdan16.spda_afisha.backend.dto.responses.users.UserResponse;
+import com.RationalF.spda_afisha.backend.dto.responses.users.UserResponse;
 
 /**
  * Service that is responsible for interactions with User entity

@@ -1,12 +1,12 @@
-package com.vladdan16.spda_afisha.backend.service.jpa;
+package com.RationalF.spda_afisha.backend.service.jpa;
 
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotAcceptableException;
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotFoundException;
-import com.vladdan16.spda_afisha.backend.domain.models.User;
-import com.vladdan16.spda_afisha.backend.domain.models.UserRole;
-import com.vladdan16.spda_afisha.backend.domain.repositories.UserRepository;
-import com.vladdan16.spda_afisha.backend.dto.responses.users.UserResponse;
-import com.vladdan16.spda_afisha.backend.service.UserService;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotAcceptableException;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotFoundException;
+import com.RationalF.spda_afisha.backend.domain.models.User;
+import com.RationalF.spda_afisha.backend.domain.models.UserRole;
+import com.RationalF.spda_afisha.backend.domain.repositories.UserRepository;
+import com.RationalF.spda_afisha.backend.dto.responses.users.UserResponse;
+import com.RationalF.spda_afisha.backend.service.UserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

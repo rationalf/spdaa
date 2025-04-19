@@ -1,8 +1,8 @@
-package com.vladdan16.spda_afisha.backend.service;
+package com.RationalF.spda_afisha.backend.service;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseToken;
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotAuthorizedException;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotAuthorizedException;
 import org.springframework.stereotype.Service;
 
 /**
