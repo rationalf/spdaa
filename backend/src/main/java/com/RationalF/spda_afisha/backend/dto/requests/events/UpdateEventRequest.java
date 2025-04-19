@@ -1,0 +1,20 @@
+package com.RationalF.spda_afisha.backend.dto.requests.events;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.RationalF.spda_afisha.backend.domain.models.EventType;
+import jakarta.validation.constraints.NotNull;
+
+import java.sql.Timestamp;
+
+public record UpdateEventRequest(
+    @NotNull
+    Long id,
+    String name,
+    String place,
+    String description,
+    @JsonProperty("start_at")
+    Timestamp startAt,
+    @JsonProperty("number_seats")
+    Long numberSeats,
+    EventType type
+) { }
