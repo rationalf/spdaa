@@ -1,5 +1,9 @@
 name: Build backend
 
+permissions:
+  contents: read
+  packages: write  # Необходимо для push в ghcr.io
+
 on:
   push:
     paths:
@@ -53,7 +57,7 @@ jobs:
         uses: docker/metadata-action@v5
 
       - name: Log in to Registry ${{ env.REGISTRY }}
-        if: (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/backend') || (github.event == 'push' && github.ref == 'refs/heads/main')
+        if: (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/backend') || github.event == 'push'
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
@@ -66,7 +70,7 @@ jobs:
         with:
           context: backend
           file: ./backend/Dockerfile
-          push: ${{ (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/backend') || (github.event == 'push' && github.ref == 'refs/heads/main') }}
+          push: ${{ (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/backend') || (github.event == 'push' && github.ref == 'refs/heads/main')}}
           tags: ghcr.io/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
