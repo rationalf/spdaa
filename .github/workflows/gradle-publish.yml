@@ -16,7 +16,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: rationalf/spda-build-backend:latest
+  IMAGE_NAME: rationalf/build-backend:latest
 
 jobs:
   build:
