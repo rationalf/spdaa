@@ -1,6 +1,6 @@
-package com.vladdan16.spda_afisha.backend.service;
+package com.RationalF.spda_afisha.backend.service;
 
-import com.vladdan16.spda_afisha.backend.dto.responses.enrolls.ListEnrollResponse;
+import com.RationalF.spda_afisha.backend.dto.responses.enrolls.ListEnrollResponse;
 
 /**
  * Service that is responsible for enrolling users onto events

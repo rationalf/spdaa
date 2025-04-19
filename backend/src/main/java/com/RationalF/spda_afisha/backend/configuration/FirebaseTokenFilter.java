@@ -1,4 +1,5 @@
 package com.RationalF.spda_afisha.backend.configuration;
+
 import com.github.loki4j.slf4j.marker.LabelMarker;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseToken;

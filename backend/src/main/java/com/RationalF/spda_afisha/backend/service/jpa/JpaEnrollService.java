@@ -1,12 +1,12 @@
-package com.vladdan16.spda_afisha.backend.service.jpa;
+package com.RationalF.spda_afisha.backend.service.jpa;
 
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotAcceptableException;
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotFoundException;
-import com.vladdan16.spda_afisha.backend.domain.repositories.EventRepository;
-import com.vladdan16.spda_afisha.backend.domain.repositories.UserRepository;
-import com.vladdan16.spda_afisha.backend.dto.responses.enrolls.ListEnrollResponse;
-import com.vladdan16.spda_afisha.backend.dto.responses.events.EventResponse;
-import com.vladdan16.spda_afisha.backend.service.EnrollService;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotAcceptableException;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotFoundException;
+import com.RationalF.spda_afisha.backend.domain.repositories.EventRepository;
+import com.RationalF.spda_afisha.backend.domain.repositories.UserRepository;
+import com.RationalF.spda_afisha.backend.dto.responses.enrolls.ListEnrollResponse;
+import com.RationalF.spda_afisha.backend.dto.responses.events.EventResponse;
+import com.RationalF.spda_afisha.backend.service.EnrollService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

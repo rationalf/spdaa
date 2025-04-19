@@ -1,9 +1,9 @@
-package com.vladdan16.spda_afisha.backend.service;
+package com.RationalF.spda_afisha.backend.service;
 
-import com.vladdan16.spda_afisha.backend.domain.models.EventType;
-import com.vladdan16.spda_afisha.backend.dto.responses.events.EventResponse;
-import com.vladdan16.spda_afisha.backend.dto.responses.events.ListEventResponse;
-import com.vladdan16.spda_afisha.backend.dto.responses.events.ListOwnerEventResponse;
+import com.RationalF.spda_afisha.backend.domain.models.EventType;
+import com.RationalF.spda_afisha.backend.dto.responses.events.EventResponse;
+import com.RationalF.spda_afisha.backend.dto.responses.events.ListEventResponse;
+import com.RationalF.spda_afisha.backend.dto.responses.events.ListOwnerEventResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.sql.Timestamp;

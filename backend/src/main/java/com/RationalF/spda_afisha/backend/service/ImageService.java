@@ -1,7 +1,7 @@
-package com.vladdan16.spda_afisha.backend.service;
+package com.RationalF.spda_afisha.backend.service;
 
-import com.vladdan16.spda_afisha.backend.domain.exceptions.BadRequestException;
-import com.vladdan16.spda_afisha.backend.domain.exceptions.NotFoundException;
+import com.RationalF.spda_afisha.backend.domain.exceptions.BadRequestException;
+import com.RationalF.spda_afisha.backend.domain.exceptions.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
