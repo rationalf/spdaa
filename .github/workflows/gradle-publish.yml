@@ -70,7 +70,7 @@ jobs:
         with:
           context: backend
           file: ./backend/Dockerfile
-          push: ${{ (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/backend') || (github.event == 'push' && github.ref == 'refs/heads/main') }}
+          push: ${{ (github.event_name == 'workflow_dispatch') || (github.event == 'push' && github.ref == 'refs/heads/main') }}
           tags: ghcr.io/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
