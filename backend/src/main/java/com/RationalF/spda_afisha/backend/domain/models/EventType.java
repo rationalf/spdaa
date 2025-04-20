@@ -5,7 +5,7 @@ package com.RationalF.spda_afisha.backend.domain.models;
  */
 public enum EventType {
   MEETUP,
-  STANDUP,
+  CONFERENCE,
   CONCERT,
   OTHER
 }
