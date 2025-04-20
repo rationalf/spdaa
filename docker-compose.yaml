@@ -21,9 +21,9 @@ services:
     depends_on:
       - postgres
     environment:
-      FIREBASE_SERVICE_ACCOUNT_KEY_PATH: "/var/spda-backend/serviceAccountKey.json"
+      FIREBASE_SERVICE_ACCOUNT_KEY_PATH: "/var/my-build-backend/serviceAccountKey.json"
     volumes:
-      - ./serviceAccountKey.json:/var/spdaa-backend/serviceAccountKey.json
+      - ./serviceAccountKey.json:/var/my-build-backend/serviceAccountKey.json
       - ./images:/backend/images
 
   prometheus:
