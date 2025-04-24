@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spdaa/static/css/main.6f72b9df.css",
+    "main.js": "/spdaa/static/js/main.63c46187.js",
+    "index.html": "/spdaa/index.html",
+    "main.6f72b9df.css.map": "/spdaa/static/css/main.6f72b9df.css.map",
+    "main.63c46187.js.map": "/spdaa/static/js/main.63c46187.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f72b9df.css",
+    "static/js/main.63c46187.js"
+  ]
+}
