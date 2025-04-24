@@ -11,7 +11,7 @@ However you should provide `serviceAccountKey.json`, that should be placed in sa
 
 #### Docker container
 
-We have deployed a container with backend application to [Github Container Registry](https://github.com/vladdan16/spda-afisha/pkgs/container/spda-afisha-backend).
+We have deployed a container with backend application to [Github Container Registry](https://github.com/rationalf/spdaa/pkgs/container/my-build-backend).
 
 #### Hosted swagger
 
