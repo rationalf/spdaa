@@ -15,7 +15,7 @@ We have deployed a container with backend application to [Github Container Regis
 
 #### Hosted swagger
 
-[Here](http://51.250.91.163/swagger-ui) is you can find deployed swagger to test backend.
+[Here](https://rationalf.github.io/feed) is you can find deployed swagger to test backend.
 
 ### Authorization
 
